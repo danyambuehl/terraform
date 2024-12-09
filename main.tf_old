@@ -1,0 +1,11 @@
+resource "maas_machine" "virsh_vm1" {
+  power_type = "virsh"
+  power_parameters = {
+  }
+}
+
+resource "maas_machine" "virsh_vm2" {
+  power_type = "virsh"
+  power_parameters = {
+  }
+}
